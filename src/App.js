@@ -1,6 +1,7 @@
 import './App.css'
 import Counter from './components/Counter'
 import ListExample from './components/ListExample'
+import ListReduxThunk from './components/ListReduxThunk'
 
 const App = () => {
   return (
@@ -10,6 +11,11 @@ const App = () => {
 
       <h1>Пример с формой и списком</h1>
       <ListExample />
+
+      {/* раскомментируй чтобы увидеть работу redux-thunk */}
+
+      {/* <h1>Пример с redux-thunk</h1>
+      <ListReduxThunk /> */}
     </div>
   )
 }
